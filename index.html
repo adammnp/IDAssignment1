@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -185,28 +186,28 @@
             </div>
           </div>
         </div>
-        <div class = "contactForm">
-          <form >
-            <h2>Send a message</h2>
+        <div id= "contactForm" class = "contactForm">
+          <form name ="swag" id = "swag">
+            <h2>Have some feedback for me?</h2>
             <div class = "inputbox">
-              <input type = "text" name = "" required = "required" style = "background: none;">
+              <input type = "text" name = "name" id="name" required = "required" required placeholder="Enter your name" style = "background: none;">
               <p class = "test">Full name</p>
             </div>
             <div class = "inputbox">
-              <input type = "text" name = "" required = "required" style = "background: none;">
+              <input type = "email" name = "email"  id="email" required placeholder="Enter a valid email address" required = "email" style = "background: none;">
               <p class = "test">E-mail</p>
             </div>
             <div class = "inputbox">
-             <textarea required = "required" style = "background: none;"></textarea>
-              <p class = "test">Your message...</p>
+             <textarea  id="text" type="textarea" required = "required" style = "background: none;" required placeholder="Enter your message here" ></textarea>
+              <p class = "test">Your message</p>
             </div>
             <div class = "inputbox">
-              <input type="submit" onclick="myFunction()"/>
+              <input onclick = "myFunction()" type="submit"  id="register" value="Submit" style = "background: none;" disabled/>
               <script>
-                function myFunction(){
-                  alert("Thank you!");
+                function myFunction() {
+                  alert("Thank you for your feedback!");
                 }
-              </script>
+                </script>
             </div>
             </div>
           </form>
@@ -217,5 +218,6 @@
     <footer>
         <div class="copyright">&copy; 2021, Adam.</div>
       </footer>
+      <script src="script.js"></script>
     </body>  
 </html>
