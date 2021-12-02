@@ -1,5 +1,5 @@
 # IDAssignment1 : Portfolio Website
-This assignment is esentially a website about me (adam aqif), and to showcase myself in a good light. The content of the website is my biography, my skills and proficencies, my career interests, my education history as well as some of my past work.
+This assignment is esentially a website about me (Adam), and to showcase myself in a good light. The content of the website is my biography, my skills and proficencies, my career interests, my education history as well as some of my past work.
 ## Design Process 
 For my design process i wanted to showcase my design ability and making my website as appealing as possible while maintaining professionalism and modernity. My website is structured in such a way that every information work-related about me is clear and concise. It is sectioned into different sections so that it gives easy navigation. I also incorporated a color palette revolved around one of my favorite colors , blue.
 
