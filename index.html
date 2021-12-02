@@ -1,0 +1,221 @@
+ 
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Adam Portfolio</title>
+    <!-- normalize .css -->
+    <link href = "normalize.css" rel = "stylesheet"  type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">   
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <a href="#" class="logo" data-glitch="adam">adam</a>
+      <ul>
+        <li><a href = "#Home" > Home </a></li>
+        <li><a href = "#skilltop"> Skills </a></li>
+        <li><a href = "#educationsection"> Education </a></li>
+        <li><a href = "#portfoliosection"> Portfolio </a></li>
+        <li><a href = "#contactform"> Contact </a></li>
+      </ul>
+    </header>
+    <section class = "banner">
+  
+    </section>
+    <script type = "text/javascript">
+        window.addEventListener("scroll",function(){
+          var header =  document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    <!-- end of navbar -->
+    <!-- home section -->
+    <section class="Home" id="Home">
+      <div class="lefthome-flex">
+        <div id="messenger"></div> <!-- random text effect -->
+        <div class="max-width hometext">
+          <div class="nameheader">Adam Aqif</div>
+          <div class="thingheader">I am a student specializing in</div>
+          <div class="randomthings"><span></span></div><br><br>
+        </div>
+      </div>
+      <section class = "cardarea">
+        <div class = "cardtainer">
+          <div class = "circle"></div>
+          <h1>Hi,welcome to my portfolio.</h1>
+          <p>My name is Adam, I am currently studying in Ngee Ann Polytechnic, pursuing a diploma in Information Technology. I aspire to work in the the Interactive Entertainment industry. I am mostly into Art and Music. In my spare time, i have learnt how to use various editing softwares such as After Effects as well as Premiere Pro to make typography motion graphics as well as general video editing.</p>
+        </div>
+      </section>
+    </section>
+    <!-- Skills section -->
+    <section class = 'skillsection' id = 'skillsection'>
+      <div id = "skilltop"><h2>VARIOUS SKILLS I'VE LEARNT.</h2>
+      <div class="skills">
+        <div class="skill">
+          <div class = "skill-name">HTML/CSS</div>
+          <div class="skill-bar">
+            <div class ="skill-per" per="70%" style= "max-width: 70%;"></div>
+          </div>
+        </div>
+   
+      
+
+        <div class="skill">
+          <div class = "skill-name">Python/C#</div>
+          <div class="skill-bar">
+            <div class ="skill-per" per="65%" style= "max-width: 65%;"></div>
+          </div>
+        </div>
+    
+   
+
+        <div class="skill">
+          <div class = "skill-name">SQL Server</div>
+          <div class="skill-bar">
+            <div class ="skill-per" per="75%" style= "max-width: 75%;"></div>
+          </div>
+        </div>
+
+   
+
+        <div class="skill">
+          <div class = "skill-name">Adobe Illustrator/AE</div>
+          <div class="skill-bar">
+            <div class ="skill-per" per="90%" style= "max-width: 90%;"></div>
+          </div>
+        </div>
+      </div>  
+      </div>
+    </section>
+    <!-- End of skills page-->
+    <!-- start of Education-->
+    <section id="educationsection" class="educationsection">
+      <h2 class = "edutitle">My Education History</h2>
+     <div class ="educontainer">
+       <div class="cardgridcontainer">
+          <div class ="cardimages"><img src = "img/polylogo.png" width="150" height = "150" class = "cards-image"></div>
+          <h3>Ngee Ann Polytechnic</h3>
+          <p>Learning IT right now. Hopefully able to dive into Game Development or Web Design.</p>
+
+          <div class ="cardimages"><img src="img/secschlogo.jpg" width="100" height="100" class = "cards-image"></div>
+          <h3>Chua Chu Kang Secondary School</h3>
+          <p>In my Secondary School I learnt many things but the most appropriate was being exposed to Arduino and attaining the Young Engineer Silver Award in 2018. I was also the admin for my CCA, thus i have adequate experience in Excel. Graduated in 2020 with a GCE O Level score of 14.</p>
+          
+          <div class = "cardimages"><img src="img/prischlogo.jpg"  width="100" height="100" class = "cards-image"></div>
+          <h3>Unity Primary School</h3>
+          <p>In my Primary School I've attained various awards such as Edusave awards and being consistenly in the top 3 students in class every year. Graduated in 2016 with a PSLE score of 218.</p>
+      </div> 
+     </div>
+    </section>
+    <!-- End of Education section-->
+    <!-- start of portfolio section-->
+    
+    <section id = "portfoliosection" class = "portfoliosection">
+      <h2 class = "portfoliotitle">PORTFOLIO</h2>
+      <hr>
+      <h3>PREVIOUS PROJECTS</h3>
+      <p>Here are some projects which i have done over time as school assignments or for my own learning purposes.</p>
+      <!-- portfolio grid photos-->
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="img/portfolio2.png"  style="width:100%" >
+            <h3>Infographic for Tiger Trade</h3>
+            <p>My own Infographic design which i made for Tiger Trade using Adobe Illustrator for my Design Principles Assignment.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="img/discordbot.png"  style="width:100%">
+            <h3>Discord Bot</h3>
+            <p>My own Discord Bot project which was a music player which could play any media when given a link input from a user.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="img/python.jpg" style="width:100%">
+            <h3>Python Assignment</h3>
+            <p>I was tasked to program a game for my Programming 1 assignement in which i learnt many functions such as how to read as well as write text files using Python.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="img/powerbi.jpg"  style="width:100%">
+            <h3>Database statistical modelling</h3>
+            <p>My Database assignment enabled me to create various models of different styles to present data.</p>
+          </div>
+        </div>
+      <!-- END GRID -->
+      </div>
+    </section>
+      <!-- contact form-->
+    <section class = "contactform" id = "contactform">
+      <div class = "contactcontent">
+        <h2>Contact Me</h2>
+        <p class = "contactp">Here is a contact form you can fill in as well as some of my social media accounts, leave me a message!</p>
+      </div>
+      <div class = "contactcontainer">
+        <div class = "contactinfo">
+          <div class = "contactbox">
+            <div class = "contacticons"><i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div class = "icontext">
+              <h3>LinkedIn</h3>
+              <p>https://www.linkedin.com/in/adam-aqif/</p>
+            </div>
+          </div>
+          <div class = "contactbox">
+            <div class = "contacticons"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+            <div class = "icontext">
+              <h3>E-mail</h3>
+              <p>adamm@temporarymail.com</p>
+            </div>
+          </div>
+          <div class = "contactbox">
+            <div class = "contacticons"><i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <div class = "icontext">
+              <h3>Instagram</h3>
+              <p>@adamm.</p>
+            </div>
+          </div>
+        </div>
+        <div class = "contactForm">
+          <form >
+            <h2>Send a message</h2>
+            <div class = "inputbox">
+              <input type = "text" name = "" required = "required" style = "background: none;">
+              <p class = "test">Full name</p>
+            </div>
+            <div class = "inputbox">
+              <input type = "text" name = "" required = "required" style = "background: none;">
+              <p class = "test">E-mail</p>
+            </div>
+            <div class = "inputbox">
+             <textarea required = "required" style = "background: none;"></textarea>
+              <p class = "test">Your message...</p>
+            </div>
+            <div class = "inputbox">
+              <input type="submit" onclick="myFunction()"/>
+              <script>
+                function myFunction(){
+                  alert("Thank you!");
+                }
+              </script>
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="copyright">&copy; 2021, Adam.</div>
+      </footer>
+    </body>  
+</html>
