@@ -33,33 +33,35 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** for the contact form validation.
--
+-[HTML]
+-[CSS]
+-[JavaScript]
+-[FontAwesome](https://fontawesome.com/v4.7/icons/)
+    - Used to include the icons for social media in the Contact Form section.
+-[SVGBackgrounds](https://www.svgbackgrounds.com/)
+    -Used to apply backgrounds to the Skills , Education History and Contact Form section.
 
 
 ## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
+Testing processes:
 1. Contact form:
-    1. Go to the "Contact Us" page
+    1. Go to the "Contact" section
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Most elements in the project are able to be displayed and are resizable.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+The fontawesome icons are not able to be displayed on a Github domain however when accessed through the root .html file, it loads up normally.
 ## Credits
 
 ### Content
 - The text for this website was curated by me.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The backgrounds were sourced from (svgbackgrounds.com) which is free to use.
+- The various school photos were sourced from their various institution websites.
+- The portfolio section photos were sourced from their various software image, the assignment portion belongs to me.
 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+- I received inspiration for this project from Web Dev simplified , Divinector and Dev Ed, respectively on YouTube by following their tutorials for aspects of my styles such as the changing words in my header. I also relied on W3Schools heavily to implement some features.
