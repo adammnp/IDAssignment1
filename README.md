@@ -14,9 +14,13 @@ Adobe XD Wireframe : https://xd.adobe.com/view/ec059f95-167b-4eb7-8020-d5acf5600
 
 There are a total of 5 sections in my website which is all under a single scroll page. The Home page comprises of a heading as well as a short biography of myself. The Skills page showcases some of my software abilities. The Education page is a summarization of my education history as well as the institutions i was in. The portfolio page consists of my past projects which i have done. Lastly, the Contact page which esentially has my social accounts as well as a form which users may fill out to communicate with me. 
 ### Existing Features
-- Home page 
+- Navigation Bar
+- Home Section consists of my About as well as the Header.
+- Skills Section which shows my proficiencies in various software.
+- Education History Section which features my different institutions i was enrolled in.
+- Portfolio Section which showcases my previous works.
+- Contact Form which allows users to send a message to me as well as links to some of my social accounts.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 - Mobile reponsiveness for navbar as well as more animations for it.
@@ -28,7 +32,8 @@ In addition, you may also use this section to discuss plans for additional featu
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses **JQuery** for the contact form validation.
+-
 
 
 ## Testing
