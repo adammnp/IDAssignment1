@@ -33,18 +33,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** for the contact form validation.
--[HTML]
--[CSS]
--[JavaScript]
--[FontAwesome](https://fontawesome.com/v4.7/icons/)
+- [HTML]
+- [CSS]
+- [JavaScript]
+- [FontAwesome](https://fontawesome.com/v4.7/icons/)
     - Used to include the icons for social media in the Contact Form section.
--[SVGBackgrounds](https://www.svgbackgrounds.com/)
-    -Used to apply backgrounds to the Skills , Education History and Contact Form section.
+- [SVGBackgrounds](https://www.svgbackgrounds.com/)
+    - Used to apply backgrounds to the Skills , Education History and Contact Form section.
 
 
 ## Testing
 Testing processes:
-1. Contact form:
+ - Contact form:
     1. Go to the "Contact" section
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
