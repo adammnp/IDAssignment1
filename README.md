@@ -12,11 +12,9 @@ Adobe XD Wireframe : https://xd.adobe.com/view/ec059f95-167b-4eb7-8020-d5acf5600
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+There are a total of 5 sections in my website which is all under a single scroll page. The Home page comprises of a heading as well as a short biography of myself. The Skills page showcases some of my software abilities. The Education page is a summarization of my education history as well as the institutions i was in. The portfolio page consists of my past projects which i have done. Lastly, the Contact page which esentially has my social accounts as well as a form which users may fill out to communicate with me. 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Home page 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
